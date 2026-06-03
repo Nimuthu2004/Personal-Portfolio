@@ -11,5 +11,8 @@ export default defineConfig({
     ssr: {
       external: ["encoding"],
     },
+    server: {
+      allowedHosts: ["personal-portfolio-okqs.onrender.com"],
+    },
   },
 });
