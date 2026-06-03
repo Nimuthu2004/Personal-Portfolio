@@ -1,8 +1,6 @@
 {
-  "buildCommand": "bun install && bun run build",
-  "outputDirectory": "dist",
+  "buildCommand": "bun run build",
   "devCommand": "bun run dev",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  "installCommand": "bun install",
+  "framework": "other"
 }
